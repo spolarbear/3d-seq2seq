@@ -218,10 +218,14 @@ sample_comparison.png	加速度 + 位移 + 误差 三列时程对比
 ## 示例输出
 
 ### 预测 vs 真实位移时程
-https://plots/sample_comparison.png
+<img width="2700" height="6000" alt="sample_comparison" src="https://github.com/user-attachments/assets/d9c3c1df-1876-43d4-b7e3-bcfafb0ed00c" />
+
 
 ### 评估总览
-https://plots/evaluation_overview.png
+<img width="2100" height="1800" alt="evaluation_overview" src="https://github.com/user-attachments/assets/947e61f5-856f-4846-b4bf-cb3d5ee743ee" />
+<img width="1500" height="1200" alt="peak_scatter" src="https://github.com/user-attachments/assets/caa0b655-4b27-4e11-a268-735b0c106fb8" />
+<img width="2700" height="1500" alt="error_analysis" src="https://github.com/user-attachments/assets/fb93a8e6-be3a-4aae-b29b-4205338eea3f" />
+
 
 ## 🔬 理论方法
 
@@ -234,6 +238,10 @@ https://plots/evaluation_overview.png
 八叉树编码：将 [300,300,500] 体素矩阵压缩为96维特征（可选扩展）
 
 统计特征编码：提取体积分数、质心偏移等结构统计特征
+
+<img width="2400" height="1200" alt="structure_layout" src="https://github.com/user-attachments/assets/8f90b76c-ac92-42cb-a860-0bd54f5695c2" />
+
+
 
 ### 2. 双路交叉注意力
 
