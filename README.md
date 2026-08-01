@@ -119,6 +119,8 @@ conda activate slformer
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install openseespy numpy scipy matplotlib scikit-learn tqdm tensorboard
 
+```bash
+
 ## 运行完整流程
 
 ### 1. 生成5000个仿真样本（自动使用多进程并行）
